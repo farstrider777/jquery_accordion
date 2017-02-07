@@ -3,3 +3,25 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
  }
+$primary-color: #333;
+$main-box-width: 400px;
+
+section {
+  background: #00C6D6;
+  width: $main-box-width;
+  height: 44px;
+  border-bottom: 1px solid #00B4C3;
+  color: #FFFFFF;
+  padding-top: 9px;
+  font-size: 20px;
+  padding-left: 18px;
+  font-weight: 300;
+  letter-spacing: .7px;
+}
+
+.container {
+  border: 1px solid #00B4C3;
+  width: $main-box-width;
+  margin: auto;
+  margin-top: 200px;
+}
