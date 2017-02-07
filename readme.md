@@ -15,4 +15,4 @@ Skills practiced
   * Effectively used JQuery to manipulate the DOM
 
 
-TO VIEW GOTO: https://farstrider777.github.io/color_clock/
+TO VIEW GOTO: https://farstrider777.github.io/jquery_accordion/
