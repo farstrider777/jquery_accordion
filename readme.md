@@ -1,22 +1,18 @@
-###What you did###
+###Created an accordion style reactive menu###
 
 Skills practiced
 
 1. Javascript
-  * xxx
-  * xxx
+  * Use of target and current target to access elements on the page.
 
 2. CSS
-  * xxx
+  * Used CSS transitions to effect smooth and aesthetically pleasing transitions.
 
 3. HTML
-  * xxx
+  * Planned page and class structures to effectively access all elements.
 
-4. GitHub
-  * xxx
-
-5. Other
-  * xxx
+4. JQuery
+  * Effectively used JQuery to manipulate the DOM
 
 
 TO VIEW GOTO: https://farstrider777.github.io/color_clock/
