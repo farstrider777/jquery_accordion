@@ -6,7 +6,7 @@
 $primary-color: #333;
 $main-box-width: 400px;
 
-section {
+div div{
   background: #00C6D6;
   width: $main-box-width;
   height: 44px;
@@ -19,9 +19,25 @@ section {
   letter-spacing: .7px;
 }
 
+
+
+.expanded {
+  height: 194px;
+  transition: max-height 1s ease;
+
+}
+
+.shrunk{
+  transition: max-height 1s ease;
+
+  height: 44px;
+  overflow: hidden;
+}
+
 .container {
   border: 1px solid #00B4C3;
   width: $main-box-width;
-  margin: auto;
-  margin-top: 200px;
+  height: 283px;
+  margin-left: 200px;
+  margin-top: 100px;
 }

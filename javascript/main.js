@@ -16,14 +16,29 @@ a little longer than our short paragraph. But not
 as long as our short paragraph.
 */
 
-var section = document.querySelectorAll('section')
+$("section").on("mouseover", expandBox);
+/*
+ var section = document.querySelectorAll('section')
 
-section[0].addEventListener("mouseover", expandBox);
-section[1].addEventListener("mouseover", expandBox);
-section[2].addEventListener("mouseover", expandBox);
+ section[0].addEventListener("mouseover", expandBox);
+ section[1].addEventListener("mouseover", expandBox);
+ section[2].addEventListener("mouseover", expandBox);
+*/
+var target;
+var section;
 
 function expandBox(event){
-  var target = event.target;
-  console.log(event.target);
-  console.log("whoot we've been moused over")
+  //target = event.target;
+  target = event.currentTarget;
+  target = $(target);
+  console.log(target);
+  var section = $(section);
+  console.log(section);
+  //section.removeClass( "expanded noClass");
+  $(".section1").removeClass("expanded").addClass("shrunk");
+  $(".section2").removeClass("expanded").addClass("shrunk");
+  $(".section3").removeClass("expanded").addClass("shrunk");
+  target.removeClass("shrunk noClass").addClass( "expanded" );
+
+
 }
